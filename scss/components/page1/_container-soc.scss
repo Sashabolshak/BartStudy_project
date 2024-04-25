@@ -1,0 +1,33 @@
+/*Container-soc*/
+.container-soc {
+	background-color: #0C141C;
+	height: 65px;
+	padding: 0 15px 0 15px;
+	
+ }
+.container-soc-row { 
+	display: flex;
+	justify-content: space-between;
+	max-width: 330px;
+	margin: 0 auto;
+	align-items: center;
+	height: 100%;
+
+}
+
+.container-soc__button a{
+	width: 35px;
+    height: 35px;
+    border: 2px solid #f1522f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	text-decoration: none;
+	transition:#f1522f  0.3s ease;
+}
+ .container-soc__button a:hover{
+	background-color: #f1522f;
+	transition: all 0.3s ease 0s;
+	transform: translateY(-2px);
+}

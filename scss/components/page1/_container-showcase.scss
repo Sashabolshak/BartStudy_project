@@ -1,0 +1,92 @@
+/*Container-showcase*/
+.container-showcase {
+    background: #0c141c;
+    padding: 40px 0 60px 0;
+ }
+
+ .container-showcase__title{
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    max-width: 530px;
+ }
+ .container-showcase__title hr{
+    border: #f1522f 1px solid;
+	background-color: #f1522f;
+	border-radius: 5px;
+	height: 3px;
+	margin: 10px 0 50px 0;
+ }
+ .container-showcase-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:20px;
+    grid-template-areas: 
+    "wide1 wide2  product product"
+    "product1 product1 wide3 wide4";
+}
+.container-showcase__item { 
+    border-radius: 20px;
+    height: 230px;
+}
+.first { 
+    background: url('/images/page1-images/container-showcase/Girls.png') no-repeat;
+    grid-area: wide1;
+	background-size:cover;
+	background-position: center right;
+}
+.second { 
+    grid-area: wide2 ;
+    background: url('/images/page1-images/container-showcase/Cowboy.png')  no-repeat;
+    background-size: cover;
+	background-position: center center;
+}
+.third { 
+    grid-area: product;
+    background: url('/images/page1-images/container-showcase/Touch.png')  no-repeat;
+    background-size: cover;
+	background-position: center center;
+}
+.fours{ 
+    grid-area: product1;
+    background: url('/images/page1-images/container-showcase/House.png')  no-repeat;
+    background-size: cover;
+	background-position: center center;
+}
+
+.fives {
+    grid-area: wide3;
+    background: url('/images/page1-images/container-showcase/Green-girl.png') no-repeat;
+    background-size: cover;
+	background-position: center center;
+ }
+.six { 
+    grid-area: wide4;
+    background: url('/images/page1-images/container-showcase/Moon.png') no-repeat;
+    background-size: cover;
+	background-position: center left;
+    display: flex;
+    height: 230px;
+    align-items: end;
+    justify-content: end;
+}
+.container-showcase__item_text div{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106%;
+    color: #fff;
+    padding: 0 0px 10px 0;
+}
+.container-showcase__item_text{
+    background-color: #f1522f;
+    border-radius: 0 0 20px 0;
+    width: 99px;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

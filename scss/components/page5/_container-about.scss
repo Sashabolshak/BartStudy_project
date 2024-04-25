@@ -1,0 +1,42 @@
+.container-about {
+    background: url('/images/page5-images/back-img.png');
+    height: 615px;
+    background-position: top left;
+    object-fit: cover;
+    padding: 0px 0 0 0;
+ }
+ .container-about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:615px;
+    background: rgba(12, 20, 28, 0.3);
+}
+.container-about__items {
+    position: relative;
+    
+ }
+.container-about__items_title{
+    padding: 250px 0 0 0 ;
+}
+ .container-about__items_title h2{
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 111%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+ }
+
+ @media screen and (max-width:767px){
+    .container-about__items_title h2{
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 111%;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+     }
+ }

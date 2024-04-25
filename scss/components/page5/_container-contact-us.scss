@@ -1,0 +1,64 @@
+.container-contact-us{
+    padding: 50px 0 100px 0 ;
+}
+
+.container-contact-us__phone input{
+   border: none;
+}
+  .container-contact-us hr{
+    height: 3px;
+    border: 1px solid #f1522f;
+    background-color: #f1522f;
+    border-radius: 5px;
+  }
+  .container-contact-us__phone input:focus{
+    width: 200px;
+    height: 30px;
+  }
+  .container-contact-us__phone input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    color: #0c141c;
+    padding: 0 0 0 5px;
+}
+.container-contact-us__name input{
+    border: none;
+}
+.container-contact-us hr{
+    height: 3px;
+    border: 1px solid #f1522f;
+    background-color: #f1522f;
+    border-radius: 5px;
+  }
+  .container-contact-us__name input:focus{
+    width: 200px;
+    height: 30px;
+  }
+  .container-contact-us__name input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    color: #0c141c;
+    padding: 0 0 0 5px;
+}
+.container-contact-us__name{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+.container-contact-us__phone{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+}
+@media screen and (max-width:767px){
+    .container-contact-us{
+        padding: 20px 0 50px 0 ;
+    }
+    .container-contact-us__name{
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 30px 0 30px 0;
+    }
+}
