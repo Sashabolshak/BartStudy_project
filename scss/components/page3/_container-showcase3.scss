@@ -3,19 +3,19 @@
     height: 250px;
  }
  .first3{
-    background: url('/images/page3-images/touch.png') no-repeat;
+    background: url('../images/page3-images/touch.png') no-repeat;
 	background-size:cover;
 	background-position: center center;
    
  }
  .second3{
-    background: url('/images/page3-images/notebook.png') no-repeat;
+    background: url('../images/page3-images/notebook.png') no-repeat;
 	background-size:cover;
 	background-position: center center;
    
  }
  .third3{
-    background: url('/images/page3-images/girls.png') no-repeat;
+    background: url('../images/page3-images/girls.png') no-repeat;
 	background-size:cover;
 	background-position: center center;
     display: flex;
@@ -39,19 +39,19 @@
         "s t";
      }
      .first3{
-        background: url('/images/page3-images/touch.png') no-repeat;
+        background: url('../images/page3-images/touch.png') no-repeat;
         background-size:cover;
         background-position: center center;
         grid-area: f;
      }
      .second3{
-        background: url('/images/page3-images/notebook.png') no-repeat;
+        background: url('../images/page3-images/notebook.png') no-repeat;
         background-size:cover;
         background-position: center center;
         grid-area: s;
      }
      .third3{
-        background: url('/images/page3-images/girls.png') no-repeat;
+        background: url('../images/page3-images/girls.png') no-repeat;
         background-size:cover;
         background-position: center center;
         display: flex;

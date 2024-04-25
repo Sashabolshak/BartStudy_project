@@ -28,19 +28,19 @@
     height: 250px;
  }
  .first2{
-    background: url('/images/page2-iamges/container-showcase2/House.png') no-repeat;
+    background: url('../images/page2-iamges/container-showcase2/House.png') no-repeat;
 	background-size:cover;
 	background-position: center center;
    
  }
  .second2{
-    background: url('/images/page2-iamges/container-showcase2/Green-girl.png') no-repeat;
+    background: url('../images/page2-iamges/container-showcase2/Green-girl.png') no-repeat;
 	background-size:cover;
 	background-position: center center;
    
  }
  .third2{
-    background: url('/images/page2-iamges/container-showcase2/Moon.png') no-repeat;
+    background: url('../images/page2-iamges/container-showcase2/Moon.png') no-repeat;
 	background-size:cover;
 	background-position: center center;
     display: flex;
@@ -84,19 +84,19 @@
         "s t";
      }
      .first2{
-        background: url('/images/page2-iamges/container-showcase2/House.png') no-repeat;
+        background: url('../images/page2-iamges/container-showcase2/House.png') no-repeat;
         background-size:cover;
         background-position: center center;
         grid-area: f;
      }
      .second2{
-        background: url('/images/page2-iamges/container-showcase2/Green-girl.png') no-repeat;
+        background: url('../images/page2-iamges/container-showcase2/Green-girl.png') no-repeat;
         background-size:cover;
         background-position: center center;
         grid-area: s;
      }
      .third2{
-        background: url('/images/page2-iamges/container-showcase2/Moon.png') no-repeat;
+        background: url('../images/page2-iamges/container-showcase2/Moon.png') no-repeat;
         background-size:cover;
         background-position: center center;
         display: flex;

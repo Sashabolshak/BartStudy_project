@@ -2536,7 +2536,7 @@ form button:hover {
 }
 
 .container-slider__img-slider_item-1 {
-  background-image: url("/images/page1-images/container-slider/First.png");
+  background-image: url("../images/page1-images/container-slider/First.png");
   background-repeat: no-repeat;
   display: flex;
   align-items: end;
@@ -2549,7 +2549,7 @@ form button:hover {
 }
 
 .container-slider__img-slider_item-2 {
-  background-image: url("/images/page1-images/container-slider/Second.png");
+  background-image: url("../images/page1-images/container-slider/Second.png");
   background-repeat: no-repeat;
   display: flex;
   align-items: end;
@@ -2562,7 +2562,7 @@ form button:hover {
 }
 
 .container-slider__img-slider_item-3 {
-  background-image: url("/images/page1-images/container-slider/Third.png");
+  background-image: url("../images/page1-images/container-slider/Third.png");
   background-repeat: no-repeat;
   display: flex;
   align-items: end;
@@ -2575,7 +2575,7 @@ form button:hover {
 }
 
 .container-slider__img-slider_item-4 {
-  background-image: url("/images/page1-images/container-slider/Fives.png");
+  background-image: url("../images/page1-images/container-slider/Fives.png");
   background-repeat: no-repeat;
   display: flex;
   align-items: end;
@@ -2741,7 +2741,7 @@ form button:hover {
 }
 
 .container-courses__images_year {
-  background-image: url("/images/page1-images/container-courses/Year.png");
+  background-image: url("../images/page1-images/container-courses/Year.png");
   background-repeat: no-repeat;
   border-radius: 17px;
   display: flex;
@@ -2754,7 +2754,7 @@ form button:hover {
 }
 
 .container-courses__images_year-gradient {
-  background-image: url("/images/page1-images/container-courses/Gradient-blue.png");
+  background-image: url("../images/page1-images/container-courses/Gradient-blue.png");
   width: 100%;
   height: 140px;
   border-bottom-right-radius: 17px;
@@ -2780,14 +2780,14 @@ form button:hover {
 }
 
 .container-courses__images_short-gradient {
-  background-image: url("/images/page1-images/container-courses/Gradient-orange.png");
+  background-image: url("../images/page1-images/container-courses/Gradient-orange.png");
   width: 100%;
   height: 140px;
   border-bottom-right-radius: 17px;
 }
 
 .container-courses__images_short {
-  background-image: url("/images/page1-images/container-courses/Short.png");
+  background-image: url("../images/page1-images/container-courses/Short.png");
   background-repeat: no-repeat;
   border-radius: 17px;
   display: flex;
@@ -2909,7 +2909,7 @@ form button:hover {
 }
 
 .first {
-  background: url("/images/page1-images/container-showcase/Girls.png") no-repeat;
+  background: url("../images/page1-images/container-showcase/Girls.png") no-repeat;
   grid-area: wide1;
   background-size: cover;
   background-position: center right;
@@ -2917,35 +2917,35 @@ form button:hover {
 
 .second {
   grid-area: wide2;
-  background: url("/images/page1-images/container-showcase/Cowboy.png") no-repeat;
+  background: url("../images/page1-images/container-showcase/Cowboy.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .third {
   grid-area: product;
-  background: url("/images/page1-images/container-showcase/Touch.png") no-repeat;
+  background: url("../images/page1-images/container-showcase/Touch.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .fours {
   grid-area: product1;
-  background: url("/images/page1-images/container-showcase/House.png") no-repeat;
+  background: url("../images/page1-images/container-showcase/House.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .fives {
   grid-area: wide3;
-  background: url("/images/page1-images/container-showcase/Green-girl.png") no-repeat;
+  background: url("../images/page1-images/container-showcase/Green-girl.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .six {
   grid-area: wide4;
-  background: url("/images/page1-images/container-showcase/Moon.png") no-repeat;
+  background: url("../images/page1-images/container-showcase/Moon.png") no-repeat;
   background-size: cover;
   background-position: center left;
   display: flex;
@@ -2975,7 +2975,7 @@ form button:hover {
 
 /*Page-2*/
 .container-modeling {
-  background: url("/images/page2-iamges/container-modeling/Backimg.png");
+  background: url("../images/page2-iamges/container-modeling/Backimg.png");
   height: 900px;
   background-position: center;
   -o-object-fit: cover;
@@ -3162,7 +3162,7 @@ form button:hover {
 @media screen and (max-width: 993px) {
   .container-modeling {
     padding: 0px 0 0 0;
-    background: url("/images/page2-iamges/container-modeling/Backimg.png");
+    background: url("../images/page2-iamges/container-modeling/Backimg.png");
     height: 600px;
     background-position: center;
     -o-object-fit: cover;
@@ -3359,19 +3359,19 @@ form button:hover {
 }
 
 .first2 {
-  background: url("/images/page2-iamges/container-showcase2/House.png") no-repeat;
+  background: url("../images/page2-iamges/container-showcase2/House.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .second2 {
-  background: url("/images/page2-iamges/container-showcase2/Green-girl.png") no-repeat;
+  background: url("../images/page2-iamges/container-showcase2/Green-girl.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .third2 {
-  background: url("/images/page2-iamges/container-showcase2/Moon.png") no-repeat;
+  background: url("../images/page2-iamges/container-showcase2/Moon.png") no-repeat;
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -3413,19 +3413,19 @@ form button:hover {
     grid-template-areas: "f f " "s t";
   }
   .first2 {
-    background: url("/images/page2-iamges/container-showcase2/House.png") no-repeat;
+    background: url("../images/page2-iamges/container-showcase2/House.png") no-repeat;
     background-size: cover;
     background-position: center center;
     grid-area: f;
   }
   .second2 {
-    background: url("/images/page2-iamges/container-showcase2/Green-girl.png") no-repeat;
+    background: url("../images/page2-iamges/container-showcase2/Green-girl.png") no-repeat;
     background-size: cover;
     background-position: center center;
     grid-area: s;
   }
   .third2 {
-    background: url("/images/page2-iamges/container-showcase2/Moon.png") no-repeat;
+    background: url("../images/page2-iamges/container-showcase2/Moon.png") no-repeat;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -3436,7 +3436,7 @@ form button:hover {
 }
 /*Page-3*/
 .container-modeling2 {
-  background: url("/images/page3-images/back-img.png");
+  background: url("../images/page3-images/back-img.png");
   height: 800px;
   background-position: center;
   -o-object-fit: cover;
@@ -3445,7 +3445,7 @@ form button:hover {
 
 @media screen and (max-width: 993px) {
   .container-modeling2 {
-    background: url("/images/page3-images/back-img.png");
+    background: url("../images/page3-images/back-img.png");
     height: 550px;
     background-position: center;
     -o-object-fit: cover;
@@ -3467,19 +3467,19 @@ form button:hover {
 }
 
 .first3 {
-  background: url("/images/page3-images/touch.png") no-repeat;
+  background: url("../images/page3-images/touch.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .second3 {
-  background: url("/images/page3-images/notebook.png") no-repeat;
+  background: url("../images/page3-images/notebook.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .third3 {
-  background: url("/images/page3-images/girls.png") no-repeat;
+  background: url("../images/page3-images/girls.png") no-repeat;
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -3500,19 +3500,19 @@ form button:hover {
     grid-template-areas: "f f " "s t";
   }
   .first3 {
-    background: url("/images/page3-images/touch.png") no-repeat;
+    background: url("../images/page3-images/touch.png") no-repeat;
     background-size: cover;
     background-position: center center;
     grid-area: f;
   }
   .second3 {
-    background: url("/images/page3-images/notebook.png") no-repeat;
+    background: url("../images/page3-images/notebook.png") no-repeat;
     background-size: cover;
     background-position: center center;
     grid-area: s;
   }
   .third3 {
-    background: url("/images/page3-images/girls.png") no-repeat;
+    background: url("../images/page3-images/girls.png") no-repeat;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -3528,19 +3528,19 @@ form button:hover {
 }
 
 .first4 {
-  background: url("/images/page4-images/first.png") no-repeat;
+  background: url("../images/page4-images/first.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .second4 {
-  background: url("/images/page4-images/second.png") no-repeat;
+  background: url("../images/page4-images/second.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .third4 {
-  background: url("/images/page4-images/third.png") no-repeat;
+  background: url("../images/page4-images/third.png") no-repeat;
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -3554,19 +3554,19 @@ form button:hover {
     height: 200px;
   }
   .first4 {
-    background: url("/images/page4-images/first.png") no-repeat;
+    background: url("../images/page4-images/first.png") no-repeat;
     background-size: cover;
     background-position: center center;
     grid-area: f;
   }
   .second4 {
-    background: url("/images/page4-images/second.png") no-repeat;
+    background: url("../images/page4-images/second.png") no-repeat;
     background-size: cover;
     background-position: center center;
     grid-area: s;
   }
   .third4 {
-    background: url("/images/page4-images/third.png") no-repeat;
+    background: url("../images/page4-images/third.png") no-repeat;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -3577,7 +3577,7 @@ form button:hover {
 }
 .container-modeling3 {
   padding: 0px 0 0 0;
-  background: url("/images/page4-images/Backimg.png");
+  background: url("../images/page4-images/Backimg.png");
   height: 800px;
   background-position: center;
   -o-object-fit: cover;
@@ -3699,7 +3699,7 @@ form button:hover {
 @media screen and (max-width: 993px) {
   .container-modeling3 {
     padding: 0px 0 0 0;
-    background: url("/images/page4-images/Backimg.png");
+    background: url("../images/page4-images/Backimg.png");
     height: 550px;
     background-position: center;
     -o-object-fit: cover;
@@ -3730,7 +3730,7 @@ form button:hover {
 }
 /*Page-5*/
 .container-about {
-  background: url("/images/page5-images/back-img.png");
+  background: url("../images/page5-images/back-img.png");
   height: 615px;
   background-position: top left;
   -o-object-fit: cover;
@@ -4150,7 +4150,7 @@ form button:hover {
 }
 
 .container-our-team__items_block-img {
-  background-image: url("/images/page5-images/team.png");
+  background-image: url("../images/page5-images/team.png");
   width: 100%;
   height: 465px;
   border-top-right-radius: 20px;
@@ -4193,7 +4193,7 @@ form button:hover {
     color: #0c141c;
   }
   .container-our-team__items_block-img {
-    background-image: url("/images/page5-images/team.png");
+    background-image: url("../images/page5-images/team.png");
     width: 100%;
     height: 200px;
     border-radius: 0 0px 20px 20px;

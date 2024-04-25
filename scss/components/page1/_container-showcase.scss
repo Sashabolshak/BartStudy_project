@@ -32,39 +32,39 @@
     height: 230px;
 }
 .first { 
-    background: url('/images/page1-images/container-showcase/Girls.png') no-repeat;
+    background: url('../images/page1-images/container-showcase/Girls.png') no-repeat;
     grid-area: wide1;
 	background-size:cover;
 	background-position: center right;
 }
 .second { 
     grid-area: wide2 ;
-    background: url('/images/page1-images/container-showcase/Cowboy.png')  no-repeat;
+    background: url('../images/page1-images/container-showcase/Cowboy.png')  no-repeat;
     background-size: cover;
 	background-position: center center;
 }
 .third { 
     grid-area: product;
-    background: url('/images/page1-images/container-showcase/Touch.png')  no-repeat;
+    background: url('../images/page1-images/container-showcase/Touch.png')  no-repeat;
     background-size: cover;
 	background-position: center center;
 }
 .fours{ 
     grid-area: product1;
-    background: url('/images/page1-images/container-showcase/House.png')  no-repeat;
+    background: url('../images/page1-images/container-showcase/House.png')  no-repeat;
     background-size: cover;
 	background-position: center center;
 }
 
 .fives {
     grid-area: wide3;
-    background: url('/images/page1-images/container-showcase/Green-girl.png') no-repeat;
+    background: url('../images/page1-images/container-showcase/Green-girl.png') no-repeat;
     background-size: cover;
 	background-position: center center;
  }
 .six { 
     grid-area: wide4;
-    background: url('/images/page1-images/container-showcase/Moon.png') no-repeat;
+    background: url('../images/page1-images/container-showcase/Moon.png') no-repeat;
     background-size: cover;
 	background-position: center left;
     display: flex;

@@ -52,7 +52,7 @@
 	grid-gap: 20px;
  }
 .container-courses__images_year {
-	background-image: url("/images/page1-images/container-courses/Year.png");
+	background-image: url("../images/page1-images/container-courses/Year.png");
 	background-repeat: no-repeat;
 	border-radius: 17px;
 	display: flex;
@@ -64,7 +64,7 @@
 	background-position: center right;
  }
 .container-courses__images_year-gradient{
-	background-image: url('/images/page1-images/container-courses/Gradient-blue.png');
+	background-image: url('../images/page1-images/container-courses/Gradient-blue.png');
 	width: 100%;
 	height: 140px;
     border-bottom-right-radius:17px ;
@@ -87,13 +87,13 @@
 	padding-bottom: 30px;
  }
 .container-courses__images_short-gradient{
-    background-image: url('/images/page1-images/container-courses/Gradient-orange.png');
+    background-image: url('../images/page1-images/container-courses/Gradient-orange.png');
 	width: 100%;
 	height: 140px;
     border-bottom-right-radius:17px ;
 }
 .container-courses__images_short {
-	background-image: url("/images/page1-images/container-courses/Short.png");
+	background-image: url("../images/page1-images/container-courses/Short.png");
 	background-repeat: no-repeat;
 	border-radius: 17px;
 	display: flex;

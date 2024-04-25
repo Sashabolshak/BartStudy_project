@@ -3,19 +3,19 @@
     height: 250px;
  }
  .first4{
-    background: url('/images/page4-images/first.png') no-repeat;
+    background: url('../images/page4-images/first.png') no-repeat;
 	background-size:cover;
 	background-position: center center;
    
  }
  .second4{
-    background: url('/images/page4-images/second.png') no-repeat;
+    background: url('../images/page4-images/second.png') no-repeat;
 	background-size:cover;
 	background-position: center center;
    
  }
  .third4{
-    background: url('/images/page4-images/third.png') no-repeat;
+    background: url('../images/page4-images/third.png') no-repeat;
 	background-size:cover;
 	background-position: center center;
     display: flex;
@@ -30,19 +30,19 @@
         height: 200px;
      }
      .first4{
-        background: url('/images/page4-images/first.png') no-repeat;
+        background: url('../images/page4-images/first.png') no-repeat;
         background-size:cover;
         background-position: center center;
         grid-area: f;
      }
      .second4{
-        background: url('/images/page4-images/second.png') no-repeat;
+        background: url('../images/page4-images/second.png') no-repeat;
         background-size:cover;
         background-position: center center;
         grid-area: s;
      }
      .third4{
-        background: url('/images/page4-images/third.png') no-repeat;
+        background: url('../images/page4-images/third.png') no-repeat;
         background-size:cover;
         background-position: center center;
         display: flex;
