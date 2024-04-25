@@ -2327,7 +2327,7 @@ form button:hover {
 /*Container-1__backimg*/
 .container-1__backimg {
   padding: 65px 0 0 0;
-  background-image: url("/images/page1-images/container-1/Backimg.jpg");
+  background-image: url("../images/page1-images/container-1/Backimg.jpg");
   height: 690px;
   background-size: cover;
   background-position: bottom;
