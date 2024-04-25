@@ -777,7 +777,7 @@ footer {
 .register-container {
   position: relative;
   height: 660px;
-  background-image: url("/images/page1-images/register-container/Back-image.png");
+  background-image: url("../images/page1-images/register-container/Back-image.png");
   background-size: cover;
 }
 
@@ -960,7 +960,7 @@ form button:hover {
   .register-container {
     position: relative;
     height: 550px;
-    background-image: url("/images/page1-images/register-container/Back-image.png");
+    background-image: url("../images/page1-images/register-container/Back-image.png");
     background-size: cover;
     background-position: 25%;
   }
